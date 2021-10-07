@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Car-Mart</title>
+</head>
+<body>
+  <!-- header section start--------->
+    <header class="header">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <a href="#" class="logo"><span>Car</span>Mart</a>
+        <nav class="navbar">
+            <a href="#home">Inicio</a>
+            <a href="#vehicles">Autos</a>
+            <a href="#services">Servicios</a>
+            <a href="#featured">Showroom</a>
+            
+            <a href="#contact">Contácto</a>
+        </nav>
+        <div id="login-btn">
+            <button class="btn">Acceder</button>
+            <i class="fas fa-user"></i>
+        </div>
+    </header>
+  <!-- header section ends-->
+  <!-- login form  starts------------>
+  <div class="login-form-container">
+      <span class="fas fa-times" id="close-login-form"></span>  
+      <form action="">
+          <h3>acceso usuario</h3>
+          <input type="email" placeholder="email" class="box">
+          <input type="password" placeholder="contraseña" class="box">
+          <p>¿Olvidaste tu contraseña? <a href="#">da click aqui</a></p>
+          <input type="submit" value="Accede" class="btn">
+          <p>Ingresar con</p>
+          <div class="buttons">
+              <a href="#" class="btn">google</a>
+              <a href="#" class="btn">facebook</a>
+          </div>
+          <p>¿No tienes cuenta? <a href="#">crea una</a></p>
+      </form>
+  </div>
+  <!--Login form ends-->
+   <!---home section starts---------------> 
+  <section class="home" id="home">
+
+    <h1 class="home-parallax" data-speed="-2">encuentra tu auto</h1>
+    <img src="image/home-img.png" alt="" class="home-parallax" data-speed="5">
+    <a href="#" class="btn home-parallax" data-speed="7">explorar</a>
+
+  </section>
+
+   <!--home section ends--->
+  <!--icons section starts-------------------->
+  <section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-home"></i>
+        <div class="content">
+            <h3>15</h3>
+            <p>agencias</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+            <h3>1800+</h3>
+            <p>autos vendidos</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-users"></i>
+        <div class="content">
+            <h3>1000+</h3>
+            <p>clientes felices</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-car-side"></i>
+        <div class="content">
+            <h3>100+</h3>
+            <p>Modelos premium multimarca</p>
+        </div>
+    </div>
+
+  </section>
+  <!--icons section ends--->
+  <!--Vahicles section starts------------>
+
+  <section class="vehicles" id="vehicles">
+      <h1 class="heading"> Los más <span>deseados</span></h1>
+      <div class="swiper vehicles-slider">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide box">
+                  <img src="image/vehicle-1.png" alt="">
+                  <div class="content">
+                      <h3>Porsche Boxter 718</h3>
+                      <div class="price"> <span> precio: </span> $1,650,000</div>
+                      <p>
+                           nuevo
+                          <span class="fas fa-circle"></span> 2021
+                          <span class="fas fa-circle"></span> automatico
+                          <span class="fas fa-circle"></span> convertible
+                          <span class="fas fa-circle"></span> 380hp
+                      </p>
+                      <a href="#" class="btn">Lo quiero</a>
+                  </div>
+              </div>
+              <div class="swiper-slide box">
+                <img src="image/vehicle-2.png" alt="">
+                <div class="content">
+                    <h3>Porsche Panamera GLS</h3>
+                    <div class="price"> <span> precio: </span> $2,850,000</div>
+                    <p>
+                         nuevo
+                        <span class="fas fa-circle"></span> 2020
+                        <span class="fas fa-circle"></span> manual
+                        <span class="fas fa-circle"></span> turbo
+                        <span class="fas fa-circle"></span> 480hp
+                    </p>
+                    <a href="#" class="btn">Lo quiero</a>
+                </div>
+             </div>
+                <div class="swiper-slide box">
+                    <img src="image/vehicle-3.png" alt="">
+                    <div class="content">
+                        <h3>Porsche Panamera GLX</h3>
+                        <div class="price"> <span> precio: </span> $2,950,000</div>
+                        <p>
+                             nuevo
+                            <span class="fas fa-circle"></span> 2020
+                            <span class="fas fa-circle"></span> automatico
+                            <span class="fas fa-circle"></span> turbo
+                            <span class="fas fa-circle"></span> 480hp
+                        </p>
+                        <a href="#" class="btn">Lo quiero</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/vehicle-4.png" alt="">
+                    <div class="content">
+                        <h3>Porsche Cayman 718</h3>
+                        <div class="price"> <span> precio: </span> $1,950,000</div>
+                        <p>
+                             nuevo
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> automatico
+                            <span class="fas fa-circle"></span> edición especial
+                            <span class="fas fa-circle"></span> 400hp
+                        </p>
+                        <a href="#" class="btn">Lo quiero</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/vehicle-5.png" alt="">
+                    <div class="content">
+                        <h3>Porsche Boxter GTS</h3>
+                        <div class="price"> <span> precio: </span> $2,050,000</div>
+                        <p>
+                             nuevo
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> manual
+                            <span class="fas fa-circle"></span> convertible
+                            <span class="fas fa-circle"></span> 410hp
+                        </p>
+                        <a href="#" class="btn">Lo quiero</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/vehicle-6.png" alt="">
+                    <div class="content">
+                        <h3>Porsche Cayenne GLS</h3>
+                        <div class="price"> <span> precio: </span> $2,250,000</div>
+                        <p>
+                             nuevo
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> automatico
+                            <span class="fas fa-circle"></span> turbo
+                            <span class="fas fa-circle"></span> 480hp
+                        </p>
+                        <a href="#" class="btn">Lo quiero</a>
+                    </div>
+                </div>
+             
+         </div>
+         <div class="swiper-pagination"></div>
+      </div>
+  </section>
+  <!---Vehicles section ends---->
+  <!---Services section starts------------------------>
+   <section class="services" id="services">
+
+        <h1 class="heading" > nuestros <span>servicios</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-car"></i>
+                <h3>venta de autos</h3>
+                <p>Contamos con los últimos modelos de autos de alta gama más populares del mercado.</p>
+                <a href="#" class="btn">Conocer más</a>
+            </div>
+            <div class="box">
+                <i class="fas fa-tools"></i>
+                <h3>mantenimiento y reparaciones</h3>
+                <p>Todas nuestras agencias tienen talleres certificados para realizar los mantenimientos y reparaciones a su auto.</p>
+                <a href="#" class="btn">Conocer más</a>
+            </div>
+            <div class="box">
+                <i class="fas fa-car-crash"></i>
+                <h3>Seguros</h3>
+                <p>Tenemos alianzas con los mejores brokers de seguros para que estes tranquilo y disfrutes de tu inversión.</p>
+                <a href="#" class="btn">Conocer más</a>
+            </div>
+            <div class="box">
+                <i class="fas fa-car-battery"></i>
+                <h3>refacciones</h3>
+                <p>Ponemos a su disposición un gran inventario de refacciones y accesorios originales para su auto.</p>
+                <a href="#" class="btn">Conocer más</a>
+            </div>
+            <div class="box">
+                <i class="fas fa-comment-dollar"></i>
+                <h3>Servicios financieros</h3>
+                <p>Contamos con diferentes tipos de financiamiento para que nunca te detengas.</p>
+                <a href="#" class="btn">Conocer más</a>
+            </div>
+            <div class="box">
+                <i class="fas fa-headset"></i>
+                <h3>Asistencia 24/7</h3>
+                <p>En caso de tener dudas y sugerencias respecto a nuestros servicios, nuestro personal le atiende las 24 horas del dia.</p>
+                <a href="#" class="btn">Conocer más</a>
+            </div>
+        </div>
+
+   </section> 
+
+
+  <!--Services section ends--->
+  <!--Featured section starts------------------->
+   <section class="featured" id="featured">
+       <h1 class="heading">los más <span>vendidos</span> </h1>
+       <div class="swiper featured-slider">
+           <div class="swiper-wrapper">
+               <!---Boxes-->
+               <div class="swiper-slide box">
+                   <img src="image/car-1.png" alt="">
+                   <h3>Mercedes-Benz SLK</h3>
+                   <div class="stars">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star-half-alt"></i>
+                   </div>
+                   <div class="price">$1,115,000</div>
+                   <a href="#" class="btn">Lo quiero</a>
+               </div>
+
+               <div class="swiper-slide box">
+                <img src="image/car-2.png" alt="">
+                <h3>MG HS 2021</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$499,000</div>
+                <a href="#" class="btn">Lo quiero</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-3.png" alt="">
+                <h3>Ford Focus RS 2020</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <div class="price">$769,900</div>
+                <a href="#" class="btn">Lo quiero</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-4.png" alt="">
+                <h3>Audi e-tron Quattro 2021</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$2,089,000</div>
+                <a href="#" class="btn">Lo quiero</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-5.png" alt="">
+                <h3>Kia Sportage SXL 2022</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$589,000</div>
+                <a href="#" class="btn">Lo quiero</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-6.png" alt="">
+                <h3>Honda Civic Hybrid 2021</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$580,900</div>
+                <a href="#" class="btn">Lo quiero</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-7.png" alt="">
+                <h3>Kia Sorento SX 2022</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$810,900</div>
+                <a href="#" class="btn">Lo quiero</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-8.png" alt="">
+                <h3>Chevrolet Traverse 2021</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <div class="price">$740,900</div>
+                <a href="#" class="btn">Lo quiero</a>
+            </div>
+
+
+            <!--End boxes-->
+           </div>
+           <div class="swiper-pagination"></div>
+       </div>
+   </section>
+
+  <!--Featured section ends---->
+  <!---newsletter section starts------->
+  <section class="newsletter">
+      <h3>suscríbete a nuestro newsletter</h3>
+      <p>Déjanos tu email para que recibas las últimas noticias y promociones a tu correo electrónico.</p>
+
+      <form action="">
+          <input type="email" placeholder="email" class="box">
+          <input type="submit" value="Enviar"class="subscribe">
+      </form>
+  </section>
+  <!--newsletters ends--->
+  <!--Contact section starts-------------->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>Contácto</span></h1>
+
+    <div class="row">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15050.261429386659!2d-99.2047096612212!3d19.431176840161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d202036d4843f9%3A0xe4d37732c0d3a976!2sPolanco%2C%20Polanco%20I%20Secc%2C%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1633567436091!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+        <form action="">
+            <h3>Solicíta informes o una cotización</h3>
+            <input type="text" placeholder="Nombre" class="box">
+            <input type="email" placeholder="Correo Electronico" class="box">
+            <input type="text" placeholder="Teléfono" class="box">
+            <textarea placeholder="Mensaje" name="" id="" cols="30" rows="10" class="box"></textarea>
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+    </div>
+
+    </section>
+  <!--contact section ends-->
+  <!--Footer starts------------------->
+    <section class="footer" id="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Nuestras Agencias</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>CDMX</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Guadalajara</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Monterrey</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Puebla</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Estado de México</a>
+            </div>
+            <div class="box">
+                <h3>Navegación</h3>
+                <a href="#home"><i class="fas fa-arrow-right"></i>Inicio</a>
+                <a href="#vehicles"><i class="fas fa-arrow-right"></i>Autos</a>
+                <a href="#services"><i class="fas fa-arrow-right"></i>Servicios</a>
+                <a href="#featured"><i class="fas fa-arrow-right"></i>Showroom</a>
+                <a href="#contact"><i class="fas fa-arrow-right"></i>Contácto</a>
+            </div>
+            <div class="box">
+                <h3>Nosotros</h3>
+                <a href="#"><i class="fas fa-phone"></i>5596332140</a>
+                <a href="#"><i class="fas fa-phone"></i>7225896321</a>
+                <a href="#"><i class="fas fa-envelope"></i>carmart.ventas@carmart.mx</a>
+                <a href="#"><i class="fas map-marker-alt"></i>#123, Polanco I, CDMX</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Contácto</a>
+            </div>
+            <div class="box">
+                <h3>Redes Sociales</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                
+            </div>
+        </div>
+    </section>
+   <!--footer ends--> 
+  <!---////// Scripts //////-->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="js/main.js" ></script>
+    
+</body>
+</html>
